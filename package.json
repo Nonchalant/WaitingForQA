@@ -1,0 +1,12 @@
+{
+  "name": "waiting-for-qa",
+  "version": "0.0.1",
+  "author": {
+    "name": "Takeshi Ihara",
+    "email": "afrontier829@gmail.com"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "jquery": "^3.2.1"
+  }
+}
