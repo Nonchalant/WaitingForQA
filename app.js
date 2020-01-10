@@ -18,13 +18,13 @@ $(function() {
     function controlMerge() {
         isWip = isWipPR()
 
-        $('.btn-group-merge>.js-details-target').prop('disabled', isWip);
-        $('.btn-group-merge>.js-menu-target').prop('disabled', isWip);
+        $('.BtnGroup>.js-details-target').prop('disabled', isWip);
+        $('.BtnGroup>.js-menu-target').prop('disabled', isWip);
 
         if (isWip) {
-            $('.btn-group-merge>.js-details-target').html('Waiting for QA!');
+            $('.BtnGroup>.js-details-target').html('Waiting for QA!');
         } else {
-            $('.btn-group-merge>.js-details-target').html('Merge pull request');
+            $('.BtnGroup>.js-details-target').html('Merge pull request');
         }
     }
 })
